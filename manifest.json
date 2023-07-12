@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "no sponsor button",
+  "description": "Removes the sponsor button on youtube.",
+  "author": "Raphael Machado",
+  "icons": {
+    "46": "icons/member-46.png",
+    "96": "icons/member-96.png",
+    "125": "icons/member.png"
+  },
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*", "*://*.m.youtube.com/*"],
+      "js": ["scripts/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
