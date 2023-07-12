@@ -1,6 +1,7 @@
 # remove-yt-sponsor-button
 Extension to remove the sponsor button of youtube.
 
+![img](ss.png)
 
 ## How to install
 
