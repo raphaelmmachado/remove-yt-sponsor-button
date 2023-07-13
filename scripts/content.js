@@ -6,8 +6,6 @@ function removeSponsorButton() {
       console.log("YouTube sponsor button removed");
       clearInterval(checkButtonInterval);
       return;
-    } else {
-      console.log("Button not found! Retrying...");
     }
   }, 1000);
 }
